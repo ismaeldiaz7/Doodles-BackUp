@@ -1,0 +1,133 @@
+body, html{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-color: #ffffff;
+}
+
+.small-rows{
+	height: 10%;
+	width: 100%;
+	display: flex;
+	background-color: #000000;
+}
+
+p{
+	color: white;
+	margin: 0;
+}
+
+.heading{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: calc(100%/3);
+	display: flex;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+.big-box{
+	height: 90%;
+	width: 100%;
+	display: block;
+	
+}
+
+.rows{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color:#000000;
+}
+
+.text-box{
+	height: 10%;
+	width: 100%;
+	display: flex;
+	font-family: 'Neucha', cursive;
+}
+
+.image {
+	height: 85%;
+	width:100%;
+	}
+
+.img-size{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.box1{
+	height: 100%;
+	width: calc(100%/3);
+	visibility: hidden;
+	background-color: #5A0101;
+	;
+}
+
+.box3{
+	height: 100%;
+	width: calc(100%/3);
+	visibility: hidden;
+	background-color: #5947B0;
+	;
+}
+
+.box5{
+	height: 100%;
+	width: calc(100%/3);
+	visibility: hidden;
+	background-color: #8B0000;
+	;
+}
+
+.box{
+	height: 100%;
+	width: calc(100%/3);
+	visibility: hidden;
+	background-color: #4682B4;
+	;
+}
+.toggle{
+	visibility: visible;
+}
+
+.gone{
+	display: none;
+}
+
+@media only screen and (max-width: 1000px){
+	.rows1{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+	.box1{
+		width: 100%;
+	}
+	
+	.box3{
+		width: 100%;
+	}
+	
+	.box5{
+		width: 100%;
+	}
+	
+	.box{
+		width: 100%;
+	}
+	
+	.rows2{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+	.center{
+		justify-content: center;
+	}
+}
